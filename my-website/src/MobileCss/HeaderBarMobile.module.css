@@ -20,21 +20,3 @@ h2 {
   float: left;
   padding-left: 3vw;
 }
-
-.Links {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 1vw;
-}
-
-.gitIcon {
-  width: 4vw;
-}
-
-.emailIcon {
-  width: 4vw;
-  padding-right: 1vw;
-}
