@@ -20,3 +20,13 @@ h2 {
   float: left;
   padding-left: 3vw;
 }
+
+.menuIcon {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 4vw;
+  width: 8vw;
+}

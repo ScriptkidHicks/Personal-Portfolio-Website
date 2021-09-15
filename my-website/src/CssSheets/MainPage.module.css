@@ -1,4 +1,23 @@
 .main {
   padding-top: 7vw;
   height: 200%;
+  background-color: rgb(30, 31, 31);
+}
+
+.profile {
+  position: absolute;
+  float: left;
+  left: 2vw;
+  width: 35vw;
+  border: 4px black solid;
+  border-radius: 50px;
+}
+
+.introduction {
+  position: absolute;
+  right: 10vw;
+  width: 40vw;
+  height: 40vw;
+  color: rgb(252, 248, 238);
+  font-size: 1.6vw;
 }
