@@ -52,6 +52,7 @@ h2 {
 }
 
 .gitIcon {
+  -webkit-filter: brightness(100%);
   width: 4vw;
 }
 
@@ -63,4 +64,12 @@ h2 {
 .instaIcon {
   width: 4vw;
   padding-right: 1vw;
+}
+
+.aboutLink:hover,
+.contactLink:hover,
+.instaIcon:hover,
+.gitIcon:hover,
+.emailIcon:hover {
+  -webkit-filter: brightness(70%);
 }

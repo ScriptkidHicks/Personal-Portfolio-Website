@@ -1,5 +1,5 @@
 .main {
-  padding-top: 7vw;
+  padding-top: 10vw;
   height: 200%;
   background-color: rgb(30, 31, 31);
 }
@@ -13,6 +13,11 @@
   border-radius: 50px;
 }
 
+.profile:hover {
+  left: 3vw;
+  box-shadow: -10px 10px 10px rgb(15, 15, 15);
+}
+
 .introduction {
   position: absolute;
   right: 10vw;
@@ -20,4 +25,14 @@
   height: 40vw;
   color: rgb(252, 248, 238);
   font-size: 1.6vw;
+}
+
+.projectsTitle {
+  margin-top: 57vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.8vw;
+  width: 10vw;
+  color: white;
+  font-style: italic;
 }

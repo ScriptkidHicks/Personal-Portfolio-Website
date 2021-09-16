@@ -1,5 +1,6 @@
 import classes from "../CssSheets/MainPage.module.css";
 import profilePic from "../Images/casual.jpg";
+import ProjectCardLink from "../Components/ProjectCardLink";
 
 function MainPage() {
   return (
@@ -13,6 +14,12 @@ function MainPage() {
         use programming and technology to tell stories, and to improve the lives
         of the most underserved among us.
       </div>
+      <div className={classes.projectsTitle}>--Projects--</div>
+      <ProjectCardLink
+        altText="AlternateTest"
+        source={profilePic}
+        cardLink="/AboutMe"
+      />
     </div>
   );
 }
