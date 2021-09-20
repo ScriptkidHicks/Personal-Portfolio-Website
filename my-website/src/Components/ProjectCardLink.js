@@ -13,9 +13,7 @@ function ProjectCardLink(Props) {
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
       >
-        {hovered && (
-          <div className={classes.hoverText}>This is the alternate</div>
-        )}
+        {hovered && <div className={classes.hoverText}>{Props.hoverText}</div>}
         {!hovered && (
           <img
             alt={Props.altText}

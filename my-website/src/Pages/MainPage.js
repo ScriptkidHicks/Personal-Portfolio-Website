@@ -1,6 +1,12 @@
 import classes from "../CssSheets/MainPage.module.css";
-import profilePic from "../Images/casual.jpg";
 import ProjectCardLink from "../Components/ProjectCardLink";
+
+import profilePic from "../Images/casual.jpg";
+import ColevilleCover from "../Images/ColevilleCover.png";
+import Y86Cover from "../Images/Y86Cover.png";
+import ThisSiteCover from "../Images/ThisPage.png";
+import SudokuCover from "../Images/Sudoku.png";
+import RedditCover from "../Images/RedditSearch.png";
 
 function MainPage() {
   return (
@@ -15,11 +21,40 @@ function MainPage() {
         of the most underserved among us.
       </div>
       <div className={classes.projectsTitle}>--Projects--</div>
-      <ProjectCardLink
-        altText="AlternateTest"
-        source={profilePic}
-        cardLink="/AboutMe"
-      />
+      <div>
+        <ProjectCardLink
+          altText="Coleville Bot"
+          hoverText="Coleville Bot"
+          source={ColevilleCover}
+          cardLink="/ColevilleBot"
+        />
+        <ProjectCardLink
+          altText="Y86_64.py"
+          hoverText="Y86_64.py"
+          source={Y86Cover}
+          cardLink="/Y86-64"
+          //VS code is producing an 'identifier expected error' here, and there is no errorr
+          // I can't figure out how to get it to stop giving me this error code, so it just lives here now
+        />
+        <ProjectCardLink
+          altText="This Website"
+          hoverText="This Website"
+          source={ThisSiteCover}
+          cardLink="/ThisSite"
+        />
+        <ProjectCardLink
+          altText="Python Sudoku Solver"
+          hoverText="Sudoku Solver"
+          source={SudokuCover}
+          cardLink="/SudokuSolver"
+        />
+        <ProjectCardLink
+          altText="Reddit Search"
+          hoverText="Subreddit Search Wrapper"
+          source={RedditCover}
+          cardLink="/SubredditSearch"
+        />
+      </div>
     </div>
   );
 }

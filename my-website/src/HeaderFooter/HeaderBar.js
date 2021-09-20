@@ -18,17 +18,25 @@ function HeaderBar() {
         </Link>
       </div>
       <div className={classes.Links}>
-        <a href="https://instagram.com/thorfinnhicks/">
+        <a
+          href="https://instagram.com/thorfinnhicks/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={InstagramIcon}
             alt="Instagram Icon"
             className={classes.instaIcon}
           />
         </a>
-        <a href="mailto:Tammashicks@gmail.com">
+        <a href="mailto:Tammashicks@gmail.com" target="_blank" rel="noreferrer">
           <img alt="Email Icon" src={EmailIcon} className={classes.emailIcon} />
         </a>
-        <a href="https://github.com/ScriptkidHicks">
+        <a
+          href="https://github.com/ScriptkidHicks"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img alt="Gihub Link" src={githubIcon} className={classes.gitIcon} />
         </a>
       </div>

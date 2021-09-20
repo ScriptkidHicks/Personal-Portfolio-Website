@@ -7,23 +7,25 @@
   object-fit: cover;
   width: 30vw;
   height: 30vw;
-  border: 2px solid black;
   border-radius: 2vw;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 0.5vw 0.5vw 0.8vw black;
 }
 
 .hoverText {
   background-color: rgb(45, 45, 45);
-  border: 2px solid black;
   border-radius: 2vw;
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 0.5vw 0.5vw 0.8vw black;
   height: 30vw;
+  width: 30vw;
   line-height: 30vw;
   text-align: center;
   font-size: 2vw;
 }
 
 .pdiv {
+  margin-top: 5vw;
+  float: left;
+  margin-left: 12vw;
   width: 30vw;
   height: 30vw;
 }
