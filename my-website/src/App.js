@@ -5,6 +5,8 @@ import Footer from "./HeaderFooter/Footer";
 
 import MainPage from "./Pages/MainPage";
 import AboutMe from "./Pages/AboutMe";
+import Contact from "./Pages/Contact";
+
 import ColevilleBot from "./Pages/ColevilleBot";
 import Y86_64PY from "./Pages/Y86_64Py";
 
@@ -31,8 +33,11 @@ function App() {
           <Route path="/" exact>
             <MainPage />
           </Route>
-          <Route path="/AboutMe" exact>
+          <Route path="/AboutMe">
             <AboutMe />
+          </Route>
+          <Route path="/Contact">
+            <Contact />
           </Route>
           <Route path="/ColevilleBot">
             <ColevilleBot />
