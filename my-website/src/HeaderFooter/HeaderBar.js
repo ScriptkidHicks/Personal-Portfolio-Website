@@ -8,12 +8,14 @@ import InstagramIcon from "../Images/InstaIcon.png";
 function HeaderBar() {
   return (
     <div className={classes.MainBody}>
-      <h2>Programming work by Tammas Hicks</h2>
+      <Link to="/" className={classes.title}>
+        Programming work by Tammas Hicks
+      </Link>
       <div className={classes.pages}>
-        <Link to="../Pages/AboutMe" className={classes.aboutLink}>
+        <Link to="/AboutMe" className={classes.aboutLink}>
           About
         </Link>
-        <Link to="../Pages/Contact" className={classes.contactLink}>
+        <Link to="/Contact" className={classes.contactLink}>
           Contact
         </Link>
       </div>

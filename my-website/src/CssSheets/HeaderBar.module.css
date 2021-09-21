@@ -11,7 +11,7 @@
   color: white;
 }
 
-h2 {
+.title {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -20,6 +20,8 @@ h2 {
   font-size: 2vmax;
   float: left;
   padding-left: 3vw;
+  color: inherit;
+  text-decoration: none;
 }
 
 .pages {
@@ -52,7 +54,6 @@ h2 {
 }
 
 .gitIcon {
-  -webkit-filter: brightness(100%);
   width: 4vw;
 }
 
@@ -71,5 +72,5 @@ h2 {
 .instaIcon:hover,
 .gitIcon:hover,
 .emailIcon:hover {
-  -webkit-filter: brightness(70%);
+  -webkit-filter: brightness(60%);
 }

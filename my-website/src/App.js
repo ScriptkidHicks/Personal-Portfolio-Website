@@ -1,6 +1,8 @@
 import { Route, Switch } from "react-router-dom";
 
 import HeaderBar from "./HeaderFooter/HeaderBar";
+import Footer from "./HeaderFooter/Footer";
+
 import MainPage from "./Pages/MainPage";
 import AboutMe from "./Pages/AboutMe";
 import ColevilleBot from "./Pages/ColevilleBot";
@@ -29,7 +31,7 @@ function App() {
           <Route path="/" exact>
             <MainPage />
           </Route>
-          <Route path="/AboutMe">
+          <Route path="/AboutMe" exact>
             <AboutMe />
           </Route>
           <Route path="/ColevilleBot">
@@ -39,6 +41,7 @@ function App() {
             <Y86_64PY />
           </Route>
         </Switch>
+        <Footer />
       </div>
     );
   }
