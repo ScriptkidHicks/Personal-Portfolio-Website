@@ -9,6 +9,7 @@ import Contact from "./Pages/Contact";
 
 import ColevilleBot from "./Pages/ColevilleBot";
 import Y86_64PY from "./Pages/Y86_64Py";
+import ThisWebsite from "./Pages/ThisWebsite";
 
 import HeaderBarMobile from "./HeaderFooter/HeaderBarMobile";
 import MainMobile from "./MobilePages/MainMobile";
@@ -44,6 +45,9 @@ function App() {
           </Route>
           <Route path="/Y86-64">
             <Y86_64PY />
+          </Route>
+          <Route path="/ThisWebsite">
+            <ThisWebsite />
           </Route>
         </Switch>
         <Footer />

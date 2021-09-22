@@ -46,7 +46,7 @@ function MainPage() {
           altText="This Website"
           hoverText="This Website"
           source={ThisSiteCover}
-          cardLink="/ThisSite"
+          cardLink="/ThisWebsite"
         />
         <ProjectCardLink
           altText="Python Sudoku Solver"
