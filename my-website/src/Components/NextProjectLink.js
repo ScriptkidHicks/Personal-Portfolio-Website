@@ -3,8 +3,10 @@ import classes from "../CssSheets/NextProjectLink.module.css";
 
 function NextProjectLink(Props) {
   return (
-    <div>
-      <Link to={Props.linkDirection}>{Props.linkPhrase}</Link>
+    <div className={classes.projectLink}>
+      <Link to={Props.linkDirection} className={classes.linkItself}>
+        {Props.linkPhrase} {">"}
+      </Link>
     </div>
   );
 }

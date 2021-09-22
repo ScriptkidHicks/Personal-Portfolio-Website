@@ -115,3 +115,9 @@
   text-decoration: inherit;
   color: inherit;
 }
+
+.nextLink {
+  position: absolute;
+  right: 12vw;
+  top: 98vw;
+}

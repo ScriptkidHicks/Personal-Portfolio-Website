@@ -1,4 +1,5 @@
 import classes from "../CssSheets/ThisWebsite.module.css";
+import NextProjectLink from "../Components/NextProjectLink";
 
 import recursive from "../Images/recursive.png";
 
@@ -52,6 +53,12 @@ function ThisWebsite() {
         >
           The React for This Website
         </a>
+      </div>
+      <div className={classes.nextLink}>
+        <NextProjectLink
+          linkDirection="/ColevilleBot"
+          linkPhrase="Coleville Bot"
+        />
       </div>
     </div>
   );

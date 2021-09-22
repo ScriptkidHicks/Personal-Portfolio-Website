@@ -1,0 +1,11 @@
+.projectLink {
+  width: 20vw;
+  font-size: 2vw;
+  color: white;
+  text-decoration: None;
+}
+
+.linkItself {
+  text-decoration: inherit;
+  color: inherit;
+}
