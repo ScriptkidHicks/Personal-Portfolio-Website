@@ -28,6 +28,31 @@ function ThisWebsite() {
         alt="a recursive shot of the site"
         className={classes.recursiveImage}
       ></img>
+      <div className={classes.continued}>
+        <p>
+          Building this website ended up being a learning experience, and
+          definitely increased my skills with CSS. It was initially a bit of a
+          challenge to get images to change over to a text descriptor when the
+          user hovered their mouse over the project card. Additional challenges
+          included setting up an image as a static background, and developing a
+          second presentation of the site for mobile. As of 9/22/21 I'm still
+          working on getting the content to fade in as you scroll down the page.
+        </p>
+      </div>
+      <div className={classes.gitReference}>
+        <p>
+          If you like what you see here, you can find the code for React that I
+          used to build it on my github page. Link below.
+        </p>
+      </div>
+      <div className={classes.gitLink}>
+        <a
+          href="https://github.com/ScriptkidHicks/Personal-Portfolio-Website"
+          className={classes.inner}
+        >
+          The React for This Website
+        </a>
+      </div>
     </div>
   );
 }
