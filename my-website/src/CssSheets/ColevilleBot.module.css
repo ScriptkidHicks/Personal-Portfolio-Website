@@ -140,3 +140,11 @@
   left: 50vw;
   top: 203vw;
 }
+
+.nextLink {
+  border-radius: 1vw;
+  position: absolute;
+  top: 203vw;
+  right: 1vw;
+  transform: translate(-50%, -50%);
+}

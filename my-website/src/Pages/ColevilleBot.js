@@ -102,7 +102,10 @@ function ColevilleBot() {
         </a>
       </div>
       <div className={classes.nextLink}>
-        <NextProjectLink />
+        <NextProjectLink
+          linkDirection="/Y86-64"
+          linkPhrase="The Y86-64 emulator"
+        />
       </div>
     </div>
   );
