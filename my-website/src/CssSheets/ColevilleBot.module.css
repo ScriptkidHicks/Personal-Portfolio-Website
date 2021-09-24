@@ -1,0 +1,63 @@
+.mainBody {
+  text-decoration: none;
+  color: rgb(231, 174, 39);
+  padding-top: 10vw;
+  height: 100vw;
+  background-color: rgb(30, 31, 31);
+}
+
+.headerImage {
+  position: absolute;
+  top: 6vw;
+  background: url("../Images/ColevilleBackgroundBlurred.jpg");
+  width: 100%;
+  margin: 0;
+  height: 35vw;
+}
+
+.headerText {
+  font-style: italic;
+  font-size: 1.4vw;
+  /*background-color: rgba(244, 244, 244, 0.04);
+  border: 3px solid white; */
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 3vw;
+  position: absolute;
+  top: 22vw;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40vw;
+  padding: 20px;
+  text-align: center;
+}
+
+.descriptor {
+  font-size: 1.4vw;
+  line-height: 3vw;
+  color: white;
+  width: 80vw;
+  position: absolute;
+  left: 50vw;
+  top: 53vw;
+  transform: translate(-50%, -50%);
+}
+
+.npcExplainer {
+  line-height: 3vw;
+  left: 25vw;
+  width: 30vw;
+  font-size: 1.4vw;
+  color: white;
+  position: absolute;
+  top: 80vw;
+  transform: translate(-50%, -50%);
+}
+
+.npcImage {
+  position: absolute;
+  right: 13vw;
+  top: 64vw;
+  width: 33vw;
+}
