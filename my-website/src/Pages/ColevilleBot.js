@@ -1,5 +1,10 @@
 import classes from "../CssSheets/ColevilleBot.module.css";
+
+import NextProjectLink from "../Components/NextProjectLink";
+
 import npcManagement from "../Images/ColevilleNPC.png";
+import ColevilleSpell from "../Images/ColevilleSpell.png";
+import Educated from "../Images/ColevilleEducated.png";
 
 function ColevilleBot() {
   return (
@@ -40,6 +45,65 @@ function ColevilleBot() {
         src={npcManagement}
         className={classes.npcImage}
       />
+      <img
+        alt="A Coleville Spell"
+        src={ColevilleSpell}
+        className={classes.coleSpell}
+      />
+      <div className={classes.spellDescription}>
+        <p>
+          The Coleville Bot has all the main spells on hand, including
+          information about their casting details. He can quote information
+          about them at you if you need to remember things like which saving
+          throw is used, or the range of the spell. This can save you valuable
+          time searching online, and means that everyone is looking at the same
+          information.
+        </p>
+      </div>
+      <img
+        alt="He is an educated bot"
+        src={Educated}
+        className={classes.edPic}
+      />
+      <div className={classes.edDescrip}>
+        <p>He's also quite an educated bot</p>
+      </div>
+      <div className={classes.pyDescriptor}>
+        <p>
+          I built him using the Discord.py library, building on the command
+          structure. Because of the way I built the bot it can only be
+          interfaced with through text commands. I would like to eventually
+          circle back around and make modifications so that the bot can do
+          things like react to emojis; but that is built on a different
+          framework in the library. You can find links to both my code for the
+          bot, and the Discord.py document pages, below. Feel free to make pull
+          requests for changes to the bot itself. I'm always happy to update it
+          so that people can get more functionality out of it.
+        </p>
+      </div>
+      <div className={classes.toGit}>
+        <a
+          style={{ textDecoration: "inherit", color: "inherit" }}
+          href="https://github.com/ScriptkidHicks/ColvilleBot"
+          target="_blank"
+          rel="noreferrer"
+        >
+          My ColeVille Code
+        </a>
+      </div>
+      <div className={classes.toDiscordpy}>
+        <a
+          style={{ textDecoration: "inherit", color: "inherit" }}
+          href="https://discordpy.readthedocs.io/en/stable/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Discord.py Documentation
+        </a>
+      </div>
+      <div className={classes.nextLink}>
+        <NextProjectLink />
+      </div>
     </div>
   );
 }

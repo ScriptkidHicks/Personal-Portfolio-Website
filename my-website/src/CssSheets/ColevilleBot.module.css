@@ -1,8 +1,7 @@
 .mainBody {
   text-decoration: none;
-  color: rgb(231, 174, 39);
   padding-top: 10vw;
-  height: 100vw;
+  height: 200vw;
   background-color: rgb(30, 31, 31);
 }
 
@@ -16,6 +15,7 @@
 }
 
 .headerText {
+  color: rgb(231, 174, 39);
   font-style: italic;
   font-size: 1.4vw;
   /*background-color: rgba(244, 244, 244, 0.04);
@@ -51,7 +51,7 @@
   font-size: 1.4vw;
   color: white;
   position: absolute;
-  top: 80vw;
+  top: 82vw;
   transform: translate(-50%, -50%);
 }
 
@@ -60,4 +60,83 @@
   right: 13vw;
   top: 64vw;
   width: 33vw;
+  border: 0.2vw black solid;
+  border-radius: 3vw;
+  box-shadow: 0.7vw 0.7vw 20px black;
+}
+
+.coleSpell {
+  border: 0.2vw black solid;
+  border-radius: 3vw;
+  box-shadow: 0.7vw 0.7vw 20px black;
+  position: absolute;
+  top: 120vw;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  width: 70vw;
+}
+
+.spellDescription {
+  font-size: 1.4vw;
+  line-height: 3vw;
+
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  top: 147vw;
+  width: 65vw;
+}
+
+.edPic {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 166vw;
+  left: 65vw;
+  width: 60vw;
+  border: 0.2vw black solid;
+  border-radius: 2vw;
+  box-shadow: 0.7vw 0.7vw 20px black;
+}
+
+.edDescrip {
+  color: white;
+  font-size: 1.4vw;
+  font-style: italic;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 166vw;
+  left: 25vw;
+  width: 30vw;
+}
+
+.pyDescriptor {
+  color: white;
+  font-size: 1.4vw;
+  line-height: 3vw;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  top: 188vw;
+  width: 75vw;
+}
+
+.toGit {
+  color: rgb(231, 174, 39);
+  font-size: 1.4vw;
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 20vw;
+  top: 203vw;
+}
+
+.toDiscordpy {
+  color: rgb(231, 174, 39);
+  font-size: 1.4vw;
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50vw;
+  top: 203vw;
 }
