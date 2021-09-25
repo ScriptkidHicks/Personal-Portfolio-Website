@@ -1,7 +1,7 @@
 .mainBody {
   color: white;
   padding-top: 6vw;
-  height: 100vw;
+  height: 150vw;
   background-color: rgb(30, 31, 31);
 }
 
@@ -27,8 +27,70 @@
   transform: translate(-50%, -50%);
   top: 55vw;
   left: 50vw;
-  width: 75vw;
+  width: 80vw;
 
   font-size: 1.4vw;
   line-height: 3vw;
+}
+
+.registerImage {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 89vw;
+  left: 68vw;
+}
+
+.explanation {
+  position: absolute;
+  width: 27vw;
+  transform: translate(-50%, -50%);
+  left: 28vw;
+  top: 89vw;
+
+  font-size: 1.2vw;
+  line-height: 3.2vw;
+}
+
+.updaterImage {
+  position: absolute;
+  top: 120vw;
+  left: 6vw;
+  width: 35vw;
+}
+
+.outro {
+  position: absolute;
+  width: 40vw;
+  top: 115vw;
+  right: 7vw;
+
+  line-height: 3vw;
+  font-size: 1.4vw;
+  font-style: italic;
+}
+
+.toGit {
+  font-size: 1.6vw;
+  position: absolute;
+  top: 147vw;
+  left: 20vw;
+  color: rgb(231, 174, 39);
+  transform: translate(-50%, -50%);
+}
+
+.toBoginw {
+  font-size: 1.6vw;
+  position: absolute;
+  top: 147vw;
+  left: 47vw;
+  color: rgb(231, 174, 39);
+  transform: translate(-50%, -50%);
+}
+
+.nextLink {
+  position: absolute;
+  top: 147vw;
+  transform: translate(-50%, -50%);
+  left: 77vw;
+  width: 23vw;
 }
