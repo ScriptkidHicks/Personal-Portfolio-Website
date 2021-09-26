@@ -42,6 +42,8 @@ function SudokuSolver() {
         <a
           href="https://github.com/ScriptkidHicks/Python-Sudoku-Solver"
           className={classes.inner}
+          target="_blank"
+          rel="noreferrer"
         >
           The Code for the Solver
         </a>

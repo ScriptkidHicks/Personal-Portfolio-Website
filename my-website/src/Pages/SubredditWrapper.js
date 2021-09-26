@@ -1,4 +1,5 @@
 import classes from "../CssSheets/SubredditWrapper.module.css";
+import NextProjectLink from "../Components/NextProjectLink";
 
 import Wrapper from "../Images/Wrapper.png";
 
@@ -39,6 +40,32 @@ function SubredditWrapper() {
           project at the bottom left, as well as a link to the code my friend
           wrote for his interview at the bottom center.
         </p>
+      </div>
+      <div className={classes.gitLink}>
+        <a
+          href="https://github.com/ScriptkidHicks/A-search-interface-for-Reddit"
+          className={classes.inner}
+          target="_blank"
+          rel="noreferrer"
+        >
+          The Code for the Wrapper
+        </a>
+      </div>
+      <div className={classes.friendLink}>
+        <a
+          href="https://github.com/Sephta/stal-rbv"
+          className={classes.inner}
+          target="_blank"
+          rel="noreferrer"
+        >
+          My Friend's Code
+        </a>
+      </div>
+      <div className={classes.nextLink}>
+        <NextProjectLink
+          linkDirection="/ColevilleBot"
+          linkPhrase="Coleville Bot"
+        />
       </div>
     </div>
   );

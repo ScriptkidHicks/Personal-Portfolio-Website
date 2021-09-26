@@ -50,6 +50,8 @@ function ThisWebsite() {
         <a
           href="https://github.com/ScriptkidHicks/Personal-Portfolio-Website"
           className={classes.inner}
+          target="_blank"
+          rel="noreferrer"
         >
           The React for This Website
         </a>

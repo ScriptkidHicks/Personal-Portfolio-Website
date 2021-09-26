@@ -1,6 +1,6 @@
 .mainBody {
   background-image: url("../Images/WrapperHeader.png");
-  height: 200vw;
+  height: 102vw;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -70,4 +70,55 @@
   color: rgb(93, 162, 212);
   font-size: 1.4vw;
   line-height: 3vw;
+}
+
+.gitLink {
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 92vw;
+  left: 20vw;
+  font-size: 1.4vw;
+  background: rgba(40, 44, 52, 0.9);
+  box-shadow: 1vw 1.2vw 10px rgba(29, 32, 37, 1);
+  color: rgb(93, 162, 212);
+  padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+  border-radius: 2vw;
+}
+
+.friendLink {
+  text-decoration: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 92vw;
+  left: 50vw;
+  font-size: 1.4vw;
+  background: rgba(40, 44, 52, 0.9);
+  box-shadow: 1vw 1.2vw 10px rgba(29, 32, 37, 1);
+  color: rgb(93, 162, 212);
+  padding: 1.5vw 1.5vw 1.5vw 1.5vw;
+  border-radius: 2vw;
+}
+
+.inner {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.gitLink:hover,
+.friendLink:hover,
+.nextLink:hover {
+  color: rgb(231, 174, 39);
+  box-shadow: -1vw 1.2vw 10px rgba(29, 32, 37, 1);
+}
+
+.nextLink {
+  transform: translate(-50%, -50%);
+  padding: 1vw 1vw 1vw 1vw;
+  border-radius: 3vw;
+  background: rgba(40, 44, 52, 0.9);
+  box-shadow: 1vw 1.2vw 10px rgba(29, 32, 37, 1);
+  position: absolute;
+  top: 92vw;
+  left: 77vw;
 }
