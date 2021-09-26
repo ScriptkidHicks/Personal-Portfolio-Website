@@ -10,6 +10,8 @@ import Contact from "./Pages/Contact";
 import ColevilleBot from "./Pages/ColevilleBot";
 import Y86_64PY from "./Pages/Y86_64Py";
 import ThisWebsite from "./Pages/ThisWebsite";
+import SudokuSolver from "./Pages/SudokuSolver";
+import SubredditWrapper from "./Pages/SubredditWrapper";
 
 import HeaderBarMobile from "./HeaderFooter/HeaderBarMobile";
 import MainMobile from "./MobilePages/MainMobile";
@@ -48,6 +50,12 @@ function App() {
           </Route>
           <Route path="/ThisWebsite">
             <ThisWebsite />
+          </Route>
+          <Route path="/SudokuSolver">
+            <SudokuSolver />
+          </Route>
+          <Route path="/SubredditWrapper">
+            <SubredditWrapper />
           </Route>
         </Switch>
         <Footer />

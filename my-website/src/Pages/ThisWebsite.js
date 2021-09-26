@@ -56,8 +56,8 @@ function ThisWebsite() {
       </div>
       <div className={classes.nextLink}>
         <NextProjectLink
-          linkDirection="/ColevilleBot"
-          linkPhrase="Coleville Bot"
+          linkDirection="/SudokuSolver"
+          linkPhrase="Sudoku Solver"
         />
       </div>
     </div>
