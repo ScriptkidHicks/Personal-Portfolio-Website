@@ -8,6 +8,8 @@ import ThisSiteCover from "../Images/ThisPage.png";
 import SudokuCover from "../Images/Sudoku.png";
 import RedditCover from "../Images/RedditSearch.png";
 
+import styled from "styled-components";
+
 function MainPage() {
   return (
     <div className={classes.main}>
@@ -66,3 +68,5 @@ function MainPage() {
 }
 
 export default MainPage;
+
+const test = styled.div``;
