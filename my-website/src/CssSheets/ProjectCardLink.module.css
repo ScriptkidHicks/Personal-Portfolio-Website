@@ -9,6 +9,7 @@
   height: 40vw;
   border-radius: 2vw;
   box-shadow: 0.5vw 0.5vw 0.8vw black;
+  transition: ease all 1s;
 }
 
 .hoverText {
@@ -20,6 +21,7 @@
   line-height: 38vw;
   text-align: center;
   font-size: 3.2vw;
+  transition: ease all 1s;
 }
 
 .pdiv {
