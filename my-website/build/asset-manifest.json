@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ScriptkidHicks/Personal-Portfolio-Website/static/css/main.3d3778f7.css",
+    "main.js": "/ScriptkidHicks/Personal-Portfolio-Website/static/js/main.600ceb27.js",
+    "static/media/FreelancerIntro.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/FreelancerIntro.0e2fde3f972c0dd1460a.png",
+    "static/media/Whale.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/Whale.25866a88fdd79d3eec2d.png",
+    "static/media/Streamline0008.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/Streamline0008.a8272475930685c4e510.png",
+    "static/media/IntroFreelancer.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/IntroFreelancer.41ab6b6b29d6625b2ef6.png",
+    "static/media/FreelancerExtraExtra.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/FreelancerExtraExtra.d673b5e364e0b67f5827.png",
+    "static/media/Database.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/Database.a36cfde9db7e2a08f037.png",
+    "static/media/casual.jpg": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/casual.7599c4d79a4512598ae9.jpg",
+    "static/media/diagram.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/diagram.8041e130c877eb417fe4.png",
+    "static/media/GitIcon.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/GitIcon.3ec61b93854178c47369.png",
+    "static/media/TravlerHeader.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/TravlerHeader.4667e808f71ce24d909a.png",
+    "static/media/FitnessFiendIntro.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/FitnessFiendIntro.d8444bc104883af47dea.png",
+    "static/media/EmailIcon.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/EmailIcon.2a25cd7283469b50e971.png",
+    "static/media/TravlerIntro.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/TravlerIntro.a9127cf08d917b3978d1.png",
+    "static/media/KettleHell.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/KettleHell.4ded8f138be61f59d959.png",
+    "static/media/Arrow_Left.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/Arrow_Left.dac816480145612eb45f.png",
+    "static/media/Arrow_Right.png": "/ScriptkidHicks/Personal-Portfolio-Website/static/media/Arrow_Right.1fa25b630cad7f6f3fc8.png",
+    "index.html": "/ScriptkidHicks/Personal-Portfolio-Website/index.html",
+    "main.3d3778f7.css.map": "/ScriptkidHicks/Personal-Portfolio-Website/static/css/main.3d3778f7.css.map",
+    "main.600ceb27.js.map": "/ScriptkidHicks/Personal-Portfolio-Website/static/js/main.600ceb27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3778f7.css",
+    "static/js/main.600ceb27.js"
+  ]
+}
