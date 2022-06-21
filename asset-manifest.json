@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d3778f7.css",
-    "main.js": "/static/js/main.69dbd2ed.js",
-    "static/media/FreelancerIntro.png": "/static/media/FreelancerIntro.0e2fde3f972c0dd1460a.png",
-    "static/media/Whale.png": "/static/media/Whale.25866a88fdd79d3eec2d.png",
-    "static/media/Streamline0008.png": "/static/media/Streamline0008.a8272475930685c4e510.png",
-    "static/media/IntroFreelancer.png": "/static/media/IntroFreelancer.41ab6b6b29d6625b2ef6.png",
-    "static/media/FreelancerExtraExtra.png": "/static/media/FreelancerExtraExtra.d673b5e364e0b67f5827.png",
-    "static/media/Database.png": "/static/media/Database.a36cfde9db7e2a08f037.png",
-    "static/media/casual.jpg": "/static/media/casual.7599c4d79a4512598ae9.jpg",
-    "static/media/diagram.png": "/static/media/diagram.8041e130c877eb417fe4.png",
-    "static/media/GitIcon.png": "/static/media/GitIcon.3ec61b93854178c47369.png",
-    "static/media/TravlerHeader.png": "/static/media/TravlerHeader.4667e808f71ce24d909a.png",
-    "static/media/FitnessFiendIntro.png": "/static/media/FitnessFiendIntro.d8444bc104883af47dea.png",
-    "static/media/EmailIcon.png": "/static/media/EmailIcon.2a25cd7283469b50e971.png",
-    "static/media/TravlerIntro.png": "/static/media/TravlerIntro.a9127cf08d917b3978d1.png",
-    "static/media/KettleHell.png": "/static/media/KettleHell.4ded8f138be61f59d959.png",
-    "static/media/Arrow_Left.png": "/static/media/Arrow_Left.dac816480145612eb45f.png",
-    "static/media/Arrow_Right.png": "/static/media/Arrow_Right.1fa25b630cad7f6f3fc8.png",
-    "index.html": "/index.html",
-    "main.3d3778f7.css.map": "/static/css/main.3d3778f7.css.map",
-    "main.69dbd2ed.js.map": "/static/js/main.69dbd2ed.js.map"
+    "main.css": "/Personal-Portfolio-Website/static/css/main.3d3778f7.css",
+    "main.js": "/Personal-Portfolio-Website/static/js/main.a95ffba4.js",
+    "static/media/FreelancerIntro.png": "/Personal-Portfolio-Website/static/media/FreelancerIntro.0e2fde3f972c0dd1460a.png",
+    "static/media/Whale.png": "/Personal-Portfolio-Website/static/media/Whale.25866a88fdd79d3eec2d.png",
+    "static/media/Streamline0008.png": "/Personal-Portfolio-Website/static/media/Streamline0008.a8272475930685c4e510.png",
+    "static/media/IntroFreelancer.png": "/Personal-Portfolio-Website/static/media/IntroFreelancer.41ab6b6b29d6625b2ef6.png",
+    "static/media/FreelancerExtraExtra.png": "/Personal-Portfolio-Website/static/media/FreelancerExtraExtra.d673b5e364e0b67f5827.png",
+    "static/media/Database.png": "/Personal-Portfolio-Website/static/media/Database.a36cfde9db7e2a08f037.png",
+    "static/media/casual.jpg": "/Personal-Portfolio-Website/static/media/casual.7599c4d79a4512598ae9.jpg",
+    "static/media/diagram.png": "/Personal-Portfolio-Website/static/media/diagram.8041e130c877eb417fe4.png",
+    "static/media/GitIcon.png": "/Personal-Portfolio-Website/static/media/GitIcon.3ec61b93854178c47369.png",
+    "static/media/TravlerHeader.png": "/Personal-Portfolio-Website/static/media/TravlerHeader.4667e808f71ce24d909a.png",
+    "static/media/FitnessFiendIntro.png": "/Personal-Portfolio-Website/static/media/FitnessFiendIntro.d8444bc104883af47dea.png",
+    "static/media/EmailIcon.png": "/Personal-Portfolio-Website/static/media/EmailIcon.2a25cd7283469b50e971.png",
+    "static/media/TravlerIntro.png": "/Personal-Portfolio-Website/static/media/TravlerIntro.a9127cf08d917b3978d1.png",
+    "static/media/KettleHell.png": "/Personal-Portfolio-Website/static/media/KettleHell.4ded8f138be61f59d959.png",
+    "static/media/Arrow_Left.png": "/Personal-Portfolio-Website/static/media/Arrow_Left.dac816480145612eb45f.png",
+    "static/media/Arrow_Right.png": "/Personal-Portfolio-Website/static/media/Arrow_Right.1fa25b630cad7f6f3fc8.png",
+    "index.html": "/Personal-Portfolio-Website/index.html",
+    "main.3d3778f7.css.map": "/Personal-Portfolio-Website/static/css/main.3d3778f7.css.map",
+    "main.a95ffba4.js.map": "/Personal-Portfolio-Website/static/js/main.a95ffba4.js.map"
   },
   "entrypoints": [
     "static/css/main.3d3778f7.css",
-    "static/js/main.69dbd2ed.js"
+    "static/js/main.a95ffba4.js"
   ]
 }
