@@ -62,7 +62,7 @@ function LandingPage() {
             elements={[
               {
                 text: "About me",
-                endpoint: "/AboutMe",
+                endpoint: "/MissionStatement",
               },
               {
                 text: "Check out other projects",

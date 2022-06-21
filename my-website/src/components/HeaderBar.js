@@ -61,7 +61,7 @@ function HeaderBar() {
             My Linkedin
           </BurgerItem>
           <BurgerItem href="./Projects">My Projects</BurgerItem>
-          <BurgerItem href="./AboutMe">About Me</BurgerItem>
+          <BurgerItem href="./MissionStatement">About Me</BurgerItem>
           <BurgerItem href="./">Main Page</BurgerItem>
         </BurgerMenu>
       )}

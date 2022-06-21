@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { PageBody, NavLinks, TextLink } from "../components/DefaultComponents";
 
-function AboutPage() {
+function MissionStatement() {
   return (
     <PageBody>
       <TitleAndBar>
@@ -50,7 +50,7 @@ function AboutPage() {
   );
 }
 
-export default AboutPage;
+export default MissionStatement;
 
 const PageTitle = styled.h2`
   color: white;

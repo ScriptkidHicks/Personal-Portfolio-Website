@@ -4,7 +4,7 @@ import styled from "styled-components";
 import HeaderBar from "./components/HeaderBar";
 import FooterBar from "./components/FooterBar";
 
-import AboutPage from "./Pages/AboutPage";
+import MissionStatement from "./Pages/MissionStatement";
 import LandingPage from "./Pages/LandingPage";
 import AneurysmVisItPage from "./Pages/AneurysmVisItPage";
 import MyFitnessFiendPage from "./Pages/MyFitnessFiendPage";
@@ -19,7 +19,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
         <Route path="/Projects" element={<ProjectsPage />} />
-        <Route path="/AboutMe" element={<AboutPage />} />
+        <Route path="/MissionStatement" element={<MissionStatement />} />
         <Route path="/AneurysmVisIt" element={<AneurysmVisItPage />} />
         <Route path="/MyFitnessFiend" element={<MyFitnessFiendPage />} />
         <Route path="/ProjectFreelancer" element={<ProjectFreelancerPage />} />

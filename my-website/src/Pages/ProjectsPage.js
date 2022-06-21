@@ -25,7 +25,7 @@ function ProjectsPage() {
           },
           {
             text: "About me",
-            endpoint: "/AboutMe",
+            endpoint: "/MissionStatement",
           },
         ]}
       />
