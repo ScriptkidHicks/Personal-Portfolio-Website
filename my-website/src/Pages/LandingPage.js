@@ -60,8 +60,14 @@ function LandingPage() {
         <DesktopOnly>
           <NavLinks
             elements={[
-              { text: "About me", endpoint: "/About" },
-              { text: "Check out other projects", endpoint: "/ProjectsPage" },
+              {
+                text: "About me",
+                endpoint: "/Personal-Portfolio-Website/About",
+              },
+              {
+                text: "Check out other projects",
+                endpoint: "/Personal-Portfolio-Website/ProjectsPage",
+              },
             ]}
           />
         </DesktopOnly>

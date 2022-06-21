@@ -140,8 +140,14 @@ function MyFitnessFiendPage() {
           </Descriptor>
           <NavLinks
             elements={[
-              { text: "Back to the landing page", endpoint: "/" },
-              { text: "Check out other projects", endpoint: "/ProjectsPage" },
+              {
+                text: "Back to the landing page",
+                endpoint: "/Personal-Portfolio-Website/",
+              },
+              {
+                text: "Check out other projects",
+                endpoint: "/Personal-Portfolio-Website/ProjectsPage",
+              },
             ]}
           />
         </ContentColumn>

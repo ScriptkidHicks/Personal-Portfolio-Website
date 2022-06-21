@@ -19,8 +19,11 @@ function ProjectsPage() {
       <MobileProjects elements={Projects} />
       <NavLinks
         elements={[
-          { text: "Back to the landing page", endpoint: "/" },
-          { text: "About me", endpoint: "/About" },
+          {
+            text: "Back to the landing page",
+            endpoint: "/Personal-Portfolio-Website/",
+          },
+          { text: "About me", endpoint: "/Personal-Portfolio-Website/About" },
         ]}
       />
     </PageBody>
