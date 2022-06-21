@@ -146,7 +146,7 @@ function MyFitnessFiendPage() {
               },
               {
                 text: "Check out other projects",
-                endpoint: "/Personal-Portfolio-Website/ProjectsPage",
+                endpoint: "/Personal-Portfolio-Website/PersonalProjects",
               },
             ]}
           />

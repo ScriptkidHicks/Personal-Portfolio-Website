@@ -62,11 +62,11 @@ function LandingPage() {
             elements={[
               {
                 text: "About me",
-                endpoint: "/Personal-Portfolio-Website/About",
+                endpoint: "/Personal-Portfolio-Website/MissionStatement",
               },
               {
                 text: "Check out other projects",
-                endpoint: "/Personal-Portfolio-Website/ProjectsPage",
+                endpoint: "/Personal-Portfolio-Website/PersonalProjects",
               },
             ]}
           />

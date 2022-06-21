@@ -23,7 +23,10 @@ function ProjectsPage() {
             text: "Back to the landing page",
             endpoint: "/Personal-Portfolio-Website/",
           },
-          { text: "About me", endpoint: "/Personal-Portfolio-Website/About" },
+          {
+            text: "About me",
+            endpoint: "/Personal-Portfolio-Website/MissionStatement",
+          },
         ]}
       />
     </PageBody>
