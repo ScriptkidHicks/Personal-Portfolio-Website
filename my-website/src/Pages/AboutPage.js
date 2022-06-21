@@ -38,11 +38,11 @@ function AboutPage() {
         elements={[
           {
             text: "Back to the landing page",
-            endpoint: "/Personal-Portfolio-Website/",
+            endpoint: "/",
           },
           {
             text: "Check out other projects",
-            endpoint: "/Personal-Portfolio-Website/ProjectsPage",
+            endpoint: "/ProjectsPage",
           },
         ]}
       />
