@@ -52,7 +52,7 @@ function AneurysmVisItPage() {
               },
               {
                 text: "Check out other projects",
-                endpoint: "/PersonalProjects",
+                endpoint: "/Projects",
               },
             ]}
           />

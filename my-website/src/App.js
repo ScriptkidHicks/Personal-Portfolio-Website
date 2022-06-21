@@ -18,9 +18,10 @@ function App() {
       <HeaderBar />
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
-        <Route path="/MissionStatement" element={<AboutPage />} />
+        <Route path="/Projects" element={<ProjectsPage />} />
+        <Route path="/AboutMe" element={<AboutPage />} />
         <Route path="/AneurysmVisIt" element={<AneurysmVisItPage />} />
-        <Route path="/MyFitnessFiend" element={<ProjectsPage />} />
+        <Route path="/MyFitnessFiend" element={<MyFitnessFiendPage />} />
         <Route path="/ProjectFreelancer" element={<ProjectFreelancerPage />} />
         <Route path="/Traveler" element={<TravelerPage />} />
       </Routes>

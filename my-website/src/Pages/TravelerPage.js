@@ -68,7 +68,7 @@ function TravelerPage() {
                 },
                 {
                   text: "Check out other projects",
-                  endpoint: "/PersonalProjects",
+                  endpoint: "/Projects",
                 },
               ]}
             />
