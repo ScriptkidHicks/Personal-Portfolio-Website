@@ -14,7 +14,7 @@ import TravelerPage from "./Pages/TravelerPage";
 
 function App() {
   return (
-    <Mainbody>
+    <Mainbody id="checking-in">
       <HeaderBar />
       <Routes>
         <Route path="/" exact element={<LandingPage />} />
