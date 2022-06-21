@@ -79,9 +79,6 @@ function LandingPage() {
           you.
           <br />
           <br />
-          Check out my projects on{" "}
-          <TextLink text="here" endpoint="/ProjectsPage" />, and if you like
-          what you see, reach out through my email for an interview.
         </AboutParagraph>
       </ProjectColumn>
     </PageBody>

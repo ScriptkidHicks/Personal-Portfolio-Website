@@ -144,10 +144,6 @@ function MyFitnessFiendPage() {
                 text: "Back to the landing page",
                 endpoint: "/",
               },
-              {
-                text: "Check out other projects",
-                endpoint: "/Projects",
-              },
             ]}
           />
         </ContentColumn>
