@@ -11,6 +11,7 @@ import MyFitnessFiendPage from "./Pages/MyFitnessFiendPage";
 import ProjectsPage from "./Pages/ProjectsPage";
 import ProjectFreelancerPage from "./Pages/ProjectFreelancerPage";
 import TravelerPage from "./Pages/TravelerPage";
+import Elk from "./Pages/Elk";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/MissionStatement" element={<MissionStatement />} />
         <Route path="/AneurysmVisIt" element={<AneurysmVisItPage />} />
         <Route path="/MyFitnessFiend" element={<MyFitnessFiendPage />} />
+        <Route path="/elk" element={<Elk />} />
         <Route path="/ProjectFreelancer" element={<ProjectFreelancerPage />} />
         <Route path="/Traveler" element={<TravelerPage />} />
       </Routes>
