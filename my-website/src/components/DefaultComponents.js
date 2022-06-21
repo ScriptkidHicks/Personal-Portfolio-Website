@@ -70,6 +70,7 @@ const PageBody = styled.div`
   justify-content: center;
   align-items: center;
   min-height: 83vh;
+  background-color: #1e1f1f;
 `;
 
 const ContentColumn = styled.div`
