@@ -16,7 +16,9 @@ function HeaderBar() {
   }
   return (
     <Header>
-      <NameTitle href="/">Programming Work by Tammas Hicks</NameTitle>
+      <NameTitle href="/Personal-Portfolio-Website/">
+        Programming Work by Tammas Hicks
+      </NameTitle>
       <IconsDiv>
         <a
           href="https://www.linkedin.com/in/tammas-hicks/"
