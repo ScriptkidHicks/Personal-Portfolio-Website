@@ -1,6 +1,6 @@
 {
-  "homepage": "https://scriptkidhicks.github.io/Personal-Portfolio-Website",
-  "name": "my-website",
+  "homepage": "https://scriptkidhicks.github.io",
+  "name": "scriptkidhicks",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
