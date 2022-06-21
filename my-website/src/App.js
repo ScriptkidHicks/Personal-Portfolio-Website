@@ -21,7 +21,6 @@ function App() {
         <Route path="/MissionStatement" element={<AboutPage />} />
         <Route path="/AneurysmVisIt" element={<AneurysmVisItPage />} />
         <Route path="/MyFitnessFiend" element={<ProjectsPage />} />
-        <Route path="/PersonalProjects" element={<ProjectsPage />} />
         <Route path="/ProjectFreelancer" element={<ProjectFreelancerPage />} />
         <Route path="/Traveler" element={<TravelerPage />} />
       </Routes>
