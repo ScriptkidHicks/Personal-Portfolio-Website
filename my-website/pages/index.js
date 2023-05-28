@@ -18,7 +18,6 @@ export default function Home() {
       <TitleSection></TitleSection>
       <AboutSection></AboutSection>
       <ProjectsSection></ProjectsSection>
-
       <FooterBar></FooterBar>
     </main>
   );
