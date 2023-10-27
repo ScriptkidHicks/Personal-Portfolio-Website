@@ -99,7 +99,7 @@ function LinkButton(props) {
 function TitleSection(props) {
   return (
     <TitleSectionStyle id={"HOME"}>
-      <TitleStyle>{"Hi, I'm Tammas Hicks"}</TitleStyle>
+      <TitleStyle>{"Hi, I'm Lillith Hicks"}</TitleStyle>
       <SelfDescriptorStyle id={"ABOUT"}>
         {
           "A full stack developer creating responsive RESTful APIs, and beautiful, responsive frontends."

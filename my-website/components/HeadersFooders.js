@@ -83,7 +83,7 @@ function HeaderBar() {
       <HeaderContentsStyled>
         <PictureAndName>
           <HeaderPicture src="/me.jpg" />
-          <Name>Tammas Hicks</Name>
+          <Name>Lillith Hicks</Name>
         </PictureAndName>
         <OptionsRow>
           <Option link={"#HOME"}>Home</Option>
